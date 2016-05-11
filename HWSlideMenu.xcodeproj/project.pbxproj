@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2B07C41CE2FB740055DC4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07C31CE2FB740055DC4F /* main.m */; };
+		9C2B07C71CE2FB740055DC4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07C61CE2FB740055DC4F /* AppDelegate.m */; };
+		9C2B07CA1CE2FB740055DC4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07C91CE2FB740055DC4F /* ViewController.m */; };
+		9C2B07CD1CE2FB740055DC4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B07CB1CE2FB740055DC4F /* Main.storyboard */; };
+		9C2B07CF1CE2FB740055DC4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B07CE1CE2FB740055DC4F /* Assets.xcassets */; };
+		9C2B07D21CE2FB740055DC4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B07D01CE2FB740055DC4F /* LaunchScreen.storyboard */; };
+		9C2B07E11CE2FB9F0055DC4F /* HWSlideControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07DB1CE2FB9F0055DC4F /* HWSlideControl.m */; };
+		9C2B07E21CE2FB9F0055DC4F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07DE1CE2FB9F0055DC4F /* UIImage+ImageEffects.m */; };
+		9C2B07E31CE2FB9F0055DC4F /* XTBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07E01CE2FB9F0055DC4F /* XTBlurView.m */; };
+		9C2B07E61CE2FBF50055DC4F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07E51CE2FBF50055DC4F /* UIView+Frame.m */; };
+		9C2B07EA1CE303620055DC4F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07E81CE303620055DC4F /* LeftViewController.m */; };
+		9C2B07EB1CE303620055DC4F /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B07E91CE303620055DC4F /* LeftViewController.xib */; };
+		9C2B07EE1CE3077E0055DC4F /* HWBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B07ED1CE3077E0055DC4F /* HWBlurViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C2B07BF1CE2FB740055DC4F /* HWSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2B07C31CE2FB740055DC4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C2B07C51CE2FB740055DC4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C2B07C61CE2FB740055DC4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C2B07C81CE2FB740055DC4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C2B07C91CE2FB740055DC4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C2B07CC1CE2FB740055DC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C2B07CE1CE2FB740055DC4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C2B07D11CE2FB740055DC4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C2B07D31CE2FB740055DC4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2B07DA1CE2FB9F0055DC4F /* HWSlideControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSlideControl.h; sourceTree = "<group>"; };
+		9C2B07DB1CE2FB9F0055DC4F /* HWSlideControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSlideControl.m; sourceTree = "<group>"; };
+		9C2B07DD1CE2FB9F0055DC4F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9C2B07DE1CE2FB9F0055DC4F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9C2B07DF1CE2FB9F0055DC4F /* XTBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBlurView.h; sourceTree = "<group>"; };
+		9C2B07E01CE2FB9F0055DC4F /* XTBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTBlurView.m; sourceTree = "<group>"; };
+		9C2B07E41CE2FBF50055DC4F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		9C2B07E51CE2FBF50055DC4F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9C2B07E71CE303620055DC4F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		9C2B07E81CE303620055DC4F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		9C2B07E91CE303620055DC4F /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		9C2B07EC1CE3077E0055DC4F /* HWBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBlurViewController.h; sourceTree = "<group>"; };
+		9C2B07ED1CE3077E0055DC4F /* HWBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBlurViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C2B07BC1CE2FB740055DC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C2B07B61CE2FB740055DC4F = {
+			isa = PBXGroup;
+			children = (
+				9C2B07C11CE2FB740055DC4F /* HWSlideMenu */,
+				9C2B07C01CE2FB740055DC4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2B07C01CE2FB740055DC4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C2B07BF1CE2FB740055DC4F /* HWSlideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C2B07C11CE2FB740055DC4F /* HWSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9C2B07D91CE2FB9F0055DC4F /* HWSlide */,
+				9C2B07C51CE2FB740055DC4F /* AppDelegate.h */,
+				9C2B07C61CE2FB740055DC4F /* AppDelegate.m */,
+				9C2B07C81CE2FB740055DC4F /* ViewController.h */,
+				9C2B07C91CE2FB740055DC4F /* ViewController.m */,
+				9C2B07E71CE303620055DC4F /* LeftViewController.h */,
+				9C2B07E81CE303620055DC4F /* LeftViewController.m */,
+				9C2B07E91CE303620055DC4F /* LeftViewController.xib */,
+				9C2B07CB1CE2FB740055DC4F /* Main.storyboard */,
+				9C2B07CE1CE2FB740055DC4F /* Assets.xcassets */,
+				9C2B07D01CE2FB740055DC4F /* LaunchScreen.storyboard */,
+				9C2B07D31CE2FB740055DC4F /* Info.plist */,
+				9C2B07C21CE2FB740055DC4F /* Supporting Files */,
+			);
+			path = HWSlideMenu;
+			sourceTree = "<group>";
+		};
+		9C2B07C21CE2FB740055DC4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2B07C31CE2FB740055DC4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C2B07D91CE2FB9F0055DC4F /* HWSlide */ = {
+			isa = PBXGroup;
+			children = (
+				9C2B07EC1CE3077E0055DC4F /* HWBlurViewController.h */,
+				9C2B07ED1CE3077E0055DC4F /* HWBlurViewController.m */,
+				9C2B07E41CE2FBF50055DC4F /* UIView+Frame.h */,
+				9C2B07E51CE2FBF50055DC4F /* UIView+Frame.m */,
+				9C2B07DA1CE2FB9F0055DC4F /* HWSlideControl.h */,
+				9C2B07DB1CE2FB9F0055DC4F /* HWSlideControl.m */,
+				9C2B07DC1CE2FB9F0055DC4F /* XTSideMenuHelper */,
+			);
+			path = HWSlide;
+			sourceTree = "<group>";
+		};
+		9C2B07DC1CE2FB9F0055DC4F /* XTSideMenuHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9C2B07DD1CE2FB9F0055DC4F /* UIImage+ImageEffects.h */,
+				9C2B07DE1CE2FB9F0055DC4F /* UIImage+ImageEffects.m */,
+				9C2B07DF1CE2FB9F0055DC4F /* XTBlurView.h */,
+				9C2B07E01CE2FB9F0055DC4F /* XTBlurView.m */,
+			);
+			path = XTSideMenuHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C2B07BE1CE2FB740055DC4F /* HWSlideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2B07D61CE2FB740055DC4F /* Build configuration list for PBXNativeTarget "HWSlideMenu" */;
+			buildPhases = (
+				9C2B07BB1CE2FB740055DC4F /* Sources */,
+				9C2B07BC1CE2FB740055DC4F /* Frameworks */,
+				9C2B07BD1CE2FB740055DC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWSlideMenu;
+			productName = HWSlideMenu;
+			productReference = 9C2B07BF1CE2FB740055DC4F /* HWSlideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C2B07B71CE2FB740055DC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Howe;
+				TargetAttributes = {
+					9C2B07BE1CE2FB740055DC4F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9C2B07BA1CE2FB740055DC4F /* Build configuration list for PBXProject "HWSlideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C2B07B61CE2FB740055DC4F;
+			productRefGroup = 9C2B07C01CE2FB740055DC4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2B07BE1CE2FB740055DC4F /* HWSlideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C2B07BD1CE2FB740055DC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2B07D21CE2FB740055DC4F /* LaunchScreen.storyboard in Resources */,
+				9C2B07EB1CE303620055DC4F /* LeftViewController.xib in Resources */,
+				9C2B07CF1CE2FB740055DC4F /* Assets.xcassets in Resources */,
+				9C2B07CD1CE2FB740055DC4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2B07BB1CE2FB740055DC4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2B07E11CE2FB9F0055DC4F /* HWSlideControl.m in Sources */,
+				9C2B07EA1CE303620055DC4F /* LeftViewController.m in Sources */,
+				9C2B07E31CE2FB9F0055DC4F /* XTBlurView.m in Sources */,
+				9C2B07E21CE2FB9F0055DC4F /* UIImage+ImageEffects.m in Sources */,
+				9C2B07E61CE2FBF50055DC4F /* UIView+Frame.m in Sources */,
+				9C2B07CA1CE2FB740055DC4F /* ViewController.m in Sources */,
+				9C2B07EE1CE3077E0055DC4F /* HWBlurViewController.m in Sources */,
+				9C2B07C71CE2FB740055DC4F /* AppDelegate.m in Sources */,
+				9C2B07C41CE2FB740055DC4F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C2B07CB1CE2FB740055DC4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C2B07CC1CE2FB740055DC4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C2B07D01CE2FB740055DC4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C2B07D11CE2FB740055DC4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C2B07D41CE2FB740055DC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C2B07D51CE2FB740055DC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C2B07D71CE2FB740055DC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWSlideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howe.HWSlideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C2B07D81CE2FB740055DC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWSlideMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.howe.HWSlideMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2B07BA1CE2FB740055DC4F /* Build configuration list for PBXProject "HWSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2B07D41CE2FB740055DC4F /* Debug */,
+				9C2B07D51CE2FB740055DC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2B07D61CE2FB740055DC4F /* Build configuration list for PBXNativeTarget "HWSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2B07D71CE2FB740055DC4F /* Debug */,
+				9C2B07D81CE2FB740055DC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C2B07B71CE2FB740055DC4F /* Project object */;
+}
